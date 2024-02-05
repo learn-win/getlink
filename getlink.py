@@ -29,14 +29,9 @@ def check():
             print(j," ",i['title'],":",i['link'])
             j=j+1
     print("--------------------end----------------------------------")
-def load():
-    try:
-        check()
-    except :
-        #print("Invalid")
-load()
+
 a=input("Enter the 'y' to contine: ")
 if a=='y':
-    load()
+    check()
 else:
     print("Thank You")

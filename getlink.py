@@ -32,6 +32,9 @@ def check():
 
 a=input("Enter the 'y' to contine: ")
 if a=='y':
-    check()
+     try:
+        check()
+    except :
+        print("Invalid")
 else:
     print("Thank You")
